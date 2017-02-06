@@ -1,0 +1,20 @@
+{
+  "name": "meettime-back-plain",
+  "version": "1.0.0",
+  "description": "Plain backend to meeting time agreement system.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "madhaanr",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.16.0",
+    "express": "4.14.0",
+    "mongodb": "2.2.22"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
